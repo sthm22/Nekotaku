@@ -1,0 +1,80 @@
+/* Reset de estilos */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do header e menu */
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 0 5px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+h1#title{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p#descricao{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 3px; 
+    padding: 0;
+}
+
+.capaManga{
+    display: inline-block;
+    padding: 0px 0px;
+    margin: 1px;
+}
+.capaManga > img#capa{
+    padding: 0px;
+    margin: 0px;
+}
+.capaManga > p#nomeManga{
+    color: white;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.585);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+}
+.capaManga > p#avaliacao{
+    color: white;
+    position: absolute;
+    text-align: justify;
+    margin: 0px;
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.585);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
